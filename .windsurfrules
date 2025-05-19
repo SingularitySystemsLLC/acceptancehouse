@@ -1,0 +1,30 @@
+# General Info
+- Site built in HTML, CSS, and JS
+- Uses Tailwind CSS
+- Uses Figma for design system
+
+# Styling (Tailwind CSS)
+- Use Tailwind utility classes for layout and styling
+- Avoid inline styles unless absolutely necessary
+- Use semantic HTML5 elements (<section>, <article>, <nav>, etc.)
+- Prioritize accessibility:
+- Add aria-labels, alt text, and landmark roles as needed
+- Use sr-only for screen reader text
+- Apply responsive classes (sm:, md:, lg:) for all layout elements
+- Define custom Tailwind config if needed (e.g., brand colors, fonts)
+
+# Images & Media
+- Optimize all images (use .webp where possible)
+- Add descriptive alt text to all images
+- Use responsive image containers (object-cover, aspect-video) where applicable
+- For videos: prefer embeds (YouTube/Vimeo) or compressed self-hosted .mp4 with <video>
+
+# Fonts & Colors
+-  Use Lato as the primary font (font-sans in Tailwind if customized)
+-  Colors pulled from brand palette:
+-  Primary Light: #5692ba
+-  Primary Dark: #1C2B62
+-  Neutral Background: #f4ede4
+-  Accent: #7A9D54
+-  Text: #2F3C4F
+-  Customize Tailwind tailwind.config.js with these colors for clean reuse
