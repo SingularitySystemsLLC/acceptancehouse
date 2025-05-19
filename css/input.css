@@ -1,3 +1,12 @@
+/* Custom classes */
+.details-bg-overlay {
+  position: relative;
+  background-image: url('/images/bg-house-shape.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
