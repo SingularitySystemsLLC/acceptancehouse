@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-neutral-bg font-sans">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acceptance House</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Cormorant+Garamond:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Cormorant+Garamond:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +12,7 @@
   <!-- Header with logo on white background -->
   <header class="bg-white w-full flex flex-col items-center pt-6 pb-2">
     <img src="/images/acceptance-house.png" alt="Acceptance House logo" class="h-24 w-auto mb-2" />
-    <span class="block text-brand-accent text-lg tracking-wide font-semibold mt-2 mb-1 text-center font-cormorant" aria-label="Site tagline">
+    <span class="block text-brand-accent text-base md:text-lg tracking-wide font-semibold mt-2 mb-1 text-center font-cormorant" aria-label="Site tagline">
       WHERE RECOVERY BEGINS WITH ACCEPTANCE
     </span>
   </header>
@@ -25,12 +25,14 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
-    <div id="mobile-menu" class="hidden flex-col items-center w-full bg-brand-secondary-dark">
-      <a href="#about" class="py-2 w-full text-center text-white hover:bg-brand-primary-light">ABOUT US</a>
-      <a href="#how" class="py-2 w-full text-center text-white hover:bg-brand-primary-light">HOW IT WORKS</a>
-      <a href="#residence" class="py-2 w-full text-center text-white hover:bg-brand-primary-light">THE RESIDENCE</a>
-      <a href="#apply" class="py-2 w-full text-center text-white hover:bg-brand-primary-light">APPLY ONLINE</a>
-      <a href="#contact" class="py-2 w-full text-center text-white hover:bg-brand-primary-light">CONTACT</a>
+    <div id="mobile-menu" class="hidden w-full bg-brand-secondary-dark">
+      <div class="max-w-6xl mx-auto px-8 w-full flex flex-col items-start">
+        <a href="#about" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">ABOUT US</a>
+        <a href="#how" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">HOW IT WORKS</a>
+        <a href="#residence" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">THE RESIDENCE</a>
+        <a href="#apply" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">APPLY ONLINE</a>
+        <a href="#contact" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">CONTACT</a>
+      </div>
     </div>
   </nav>
 
@@ -38,28 +40,28 @@
   <section class="relative w-full flex-1 flex flex-col">
     <img src="/images/delray-beach-view.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[420px] lg:h-[520px]" />
     <!-- Desktop Nav (below hero) -->
-    <nav class="hidden md:flex w-full justify-center items-center bg-brand-secondary-dark text-white py-4 text-base font-medium tracking-wide">
-      <a href="#about" class="mx-4 hover:text-brand-accent focus:text-brand-accent">ABOUT US</a>
-      <a href="#how" class="mx-4 hover:text-brand-accent focus:text-brand-accent">HOW IT WORKS</a>
-      <a href="#residence" class="mx-4 hover:text-brand-accent focus:text-brand-accent">THE RESIDENCE</a>
-      <a href="#apply" class="mx-4 hover:text-brand-accent focus:text-brand-accent">APPLY ONLINE</a>
-      <a href="#contact" class="mx-4 hover:text-brand-accent focus:text-brand-accent">CONTACT</a>
+    <nav class="hidden md:flex w-full justify-center items-center bg-brand-secondary-dark text-white py-4 font-lato font-light leading-[30px] tracking-[0.2em] space-x-12">
+      <a href="#about" class="hover:text-brand-accent focus:text-brand-accent">ABOUT US</a>
+      <a href="#how" class="hover:text-brand-accent focus:text-brand-accent">HOW IT WORKS</a>
+      <a href="#residence" class="hover:text-brand-accent focus:text-brand-accent">THE RESIDENCE</a>
+      <a href="#apply" class="hover:text-brand-accent focus:text-brand-accent">APPLY ONLINE</a>
+      <a href="#contact" class="hover:text-brand-accent focus:text-brand-accent">CONTACT</a>
     </nav>
   </section>
 
   <!-- Welcome Section -->
-  <section class="w-full flex justify-center py-20 md:py-32 md:px-12 bg-white" aria-label="Welcome">
-    <div class="max-w-[900px] w-full px-4 md:px-8 text-center">
-      <p class="text-lg md:text-xl font-cormorant text-brand-accent mb-2">Welcome to</p>
-      <h1 class="text-4xl md:text-5xl font-cormorant text-light tracking-wide text-brand-primary-dark mb-6">ACCEPTANCE HOUSE</h1>
-      <p class="text-lg md:text-xl font-sans text-brand-text mb-4">Acceptance House is a recovery residence where men can begin to rebuild their lives in a safe, substance-free, and compassionate environment. Our mission is to support residents as they transition from intensive treatment into sustainable, independent sobriety.</p>
-      <p class="text-lg md:text-xl font-sans text-brand-text">At Acceptance House, we foster a community grounded in personal accountability, mutual respect, and emotional growth. We believe that healing happens through structure, connection, and the daily practice of self-worth. Our goal is to help each resident create a solid foundation for lasting recovery and a more meaningful, healthy life.</p>
+  <section class="w-full flex justify-center pt-16 pb-8 md:pb-24 md:px-12 bg-white" aria-label="Welcome">
+    <div class="max-w-[900px] w-full px-4 md:px-8 text-center leading-[30px]">
+      <p class="text-lg md:text-2xl font-cormorant text-brand-accent font-light mb-2">Welcome to</p>
+      <h1 class="text-4xl md:text-5xl font-cormorant text-semibold tracking-wide text-brand-primary-dark mb-8">ACCEPTANCE HOUSE</h1>
+      <p class="text-base md:text-xl text-brand-text mb-4">Acceptance House is a recovery residence where men can begin to rebuild their lives in a safe, substance-free, and compassionate environment. Our mission is to support residents as they transition from intensive treatment into sustainable, independent sobriety.</p>
+      <p class="text-base md:text-xl text-brand-text">At Acceptance House, we foster a community grounded in personal accountability, mutual respect, and emotional growth. We believe that healing happens through structure, connection, and the daily practice of self-worth. Our goal is to help each resident create a solid foundation for lasting recovery and a more meaningful, healthy life.</p>
     </div>
   </section>
 
   <!-- Details Section -->
-  <section class="w-full flex justify-center py-20 md:py-32 details-bg-overlay bg-accent-70" aria-label="Details">
-    <div class="max-w-[1160px] w-full px-4 md:px-8 flex flex-col md:flex-row items-center gap-8">
+  <section class="w-full flex justify-center py-10 md:py-32 px-8 details-bg-overlay bg-accent-70" aria-label="Details">
+    <div class="max-w-[1160px] w-full md:px-8 flex flex-col md:flex-row items-center gap-8">
       <img src="/images/living-room-details.jpg" alt="Acceptance House living room" class="w-full md:w-1/2 object-cover aspect-video shadow-lg" />
       <div class="flex-1 text-center md:text-left">
         <h3 class="font-economica text-2xl md:text-3xl font-bold mb-2">
@@ -72,8 +74,8 @@
   </section>
 
   <!-- Philosophy Section -->
-  <section class="w-full flex justify-center py-20 md:py-32 bg-brand-text" aria-label="Philosophy">
-    <div class="max-w-[1160px] w-full px-4 md:px-8 flex flex-col md:flex-row items-center gap-12">
+  <section class="w-full flex justify-center py-20 md:py-32 px-4 bg-brand-text philosophy-bg-overlay" aria-label="Philosophy">
+    <div class="max-w-[1160px] w-full px-4 flex flex-col md:flex-row items-center gap-12">
       <!-- Left: Text with bg icon -->
       <div class="relative flex-1 w-full philosophy-bg px-0 md:px-8 text-white flex flex-col justify-center">
         <h2 class="font-economica text-2xl md:text-3xl font-bold mb-6">
@@ -87,10 +89,42 @@
       </div>
       <!-- Right: Door Image -->
       <div class="flex-1 w-full flex justify-center items-center">
-        <img src="/images/front-door-philosophy.jpg" alt="Red front door at Acceptance House" class="w-[315px] h-[622px]" />
+        <img src="/images/front-door-philosophy.jpg" alt="Red front door at Acceptance House" class="w-[350px]" />
       </div>
     </div>
   </section>
+
+  <footer class="bg-white py-10 font-sans text-brand-text" aria-label="Footer">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <!-- Logo -->
+      <div class="flex justify-center md:justify-start">
+        <img src="/images/acceptance-house.png" alt="Acceptance House logo" class="h-[150px]" />
+      </div>
+      <!-- Contact Info -->
+      <section aria-label="Contact Info" class="text-center md:text-left">
+        <h2 class="text-3xl font-cormorant font-light border-b border-brand-primary-light pb-1 mb-2">Contact Info</h2>
+        <address class="not-italic text-sm leading-6">
+          5051 Van Buren Rd<br>
+          Delray Beach FL 33484<br>
+          304-670-1821<br>
+          <a href="mailto:info@acceptancehouse.com" class="text-brand-primary-light underline">info@acceptancehouse.com</a>
+        </address>
+      </section>
+      <!-- Navigation -->
+      <nav aria-label="Footer Navigation" class="text-center md:text-right pt-4">
+        <ul class="space-y-1">
+          <li><a href="/about" class="hover:text-brand-primary-light">About Us</a></li>
+          <li><a href="/how-it-works" class="hover:text-brand-primary-light">How it Works</a></li>
+          <li><a href="/residence" class="hover:text-brand-primary-light">The Residence</a></li>
+          <li><a href="/apply" class="hover:text-brand-primary-light">Apply Online</a></li>
+          <li><a href="/contact" class="hover:text-brand-primary-light">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <footer class="w-full bg-brand-text text-neutral-bg py-4 flex text-sm" role="contentinfo" aria-label="Site Footer">
+    <div class="max-w-6xl mx-auto px-8">Copyright 2025 Acceptance House, Delray Beach, FL</div>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
