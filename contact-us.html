@@ -39,18 +39,49 @@
 
 <!-- Hero Image -->
 <section class="relative w-full flex-1 flex flex-col">
-    <img src="/images/residence-main-pic.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[420px] lg:h-[420px]" />
+    <img src="/images/delray-beach-sailboat.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[420px] lg:h-[420px]" />
     <!-- Desktop Nav (below hero) -->
     <nav class="hidden md:flex w-full justify-center items-center bg-brand-secondary-dark text-white py-4 font-lato font-light leading-[30px] tracking-[0.2em] space-x-12">
         <a href="/about.html" class="hover:text-brand-accent focus:text-brand-accent">ABOUT US</a>
         <a href="/how-it-works.html" class="hover:text-brand-accent focus:text-brand-accent">HOW IT WORKS</a>
-        <a href="#" class="text-brand-accent">THE RESIDENCE</a>
+        <a href="#" class="hover:text-brand-accent focus:text-brand-accent">THE RESIDENCE</a>
         <a href="/apply.html" class="hover:text-brand-accent focus:text-brand-accent">APPLY ONLINE</a>
-        <a href="/contact-us.html" class="hover:text-brand-accent focus:text-brand-accent">CONTACT</a>
+        <a href="/contact-us.html" class="text-brand-accent">CONTACT</a>
     </nav>
 </section>
 
+<!-- Contact Form Section -->
+<section class="w-full max-w-5xl mx-auto bg-white p-8 mt-10" aria-label="Contact Form">
+  <h2 class="text-xl font-bold mb-6 text-brand-secondary-dark">Got questions? We are here to help.</h2>
+  <form class="space-y-6" aria-label="Contact form" action="https://formsubmit.co/joi@stoicinsurancegroup.org" method="POST">
+    <input type="hidden" name="_next" value="/thank-you.html">
+    <input type="hidden" name="_captcha" value="false">
+    <div class="mb-4">
+      <input type="text" name="name" id="name" required placeholder="Name*" class="form-input-ah w-full" aria-label="Name">
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <input type="email" name="email" id="email" required placeholder="E-Mail*" class="form-input-ah" aria-label="Email">
+      <input type="text" name="phone" id="phone" placeholder="Phone" class="form-input-ah" aria-label="Phone">
+    </div>
+    <textarea name="message" id="message" required placeholder="Message*" class="form-input-ah w-full min-h-[140px]" aria-label="Message"></textarea>
+    <button type="submit" class="bg-[#FFC107] hover:bg-brand-accent text-white font-bold py-2 px-8 rounded focus:outline-none focus:ring-2 focus:ring-[#5692ba] focus:ring-opacity-50 transition">Submit</button>
+  </form>
+</section>
 
+<!-- Map Section -->
+<section class="w-full mt-12" aria-label="Location Map">
+  <div class="w-full">
+    <iframe
+      title="Acceptance House Location Map"
+      src="https://www.google.com/maps?q=5051+Van+Buren+Rd,+Delray+Beach,+FL+33484&output=embed&z=13"
+      class="w-full h-[400px] md:h-[500px] border-0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      aria-label="Map showing 5051 Van Buren Rd, Delray Beach FL 33484"
+    ></iframe>
+  </div>
+</section>
 
 <footer class="bg-white py-10 font-sans text-brand-text" aria-label="Footer">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
