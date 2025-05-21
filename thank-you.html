@@ -50,11 +50,11 @@
 </section>
 
 <!-- Thank You Message -->
-<section class="w-full max-w-3xl mx-auto bg-white p-10 mt-10 rounded-lg shadow-md flex flex-col items-center" aria-label="Thank You">
+<section class="w-full max-w-3xl mx-auto bg-white p-10 mt-10 flex flex-col items-center" aria-label="Thank You">
     <h1 class="text-3xl md:text-[40px] font-bold text-brand-secondary-dark mb-4 text-center">Thank You for Applying!</h1>
     <p class="text-lg text-center mb-6">We have received your application and will review your information as soon as possible.<br>
     If you have any questions or need immediate assistance, please <a href="/contact-us.html" class="text-brand-accent underline hover:font-bold">contact us</a>.</p>
-    <a href="/" class="mt-4 inline-block bg-[#FFC107] hover:bg-[#7A9D54] text-white font-bold py-2 px-8 rounded focus:outline-none focus:ring-2 focus:ring-[#5692ba] focus:ring-opacity-50 transition">Back to Home</a>
+    <a href="/" class="mt-4 inline-block bg-brand-primary-dark hover:bg-brand-primary-medium text-white font-bold py-2 px-8 rounded focus:outline-none focus:ring-2 focus:ring-[#5692ba] focus:ring-opacity-50 transition">Back to Home</a>
 </section>
 
 <footer class="bg-white py-10 font-sans text-brand-text" aria-label="Footer">
@@ -64,13 +64,16 @@
             <a href="/index.html"><img src="/images/acceptance-house.png" alt="Acceptance House logo" class="h-16 w-auto mb-3" /></a>
             <span class="block text-brand-accent text-sm font-semibold font-cormorant">WHERE RECOVERY BEGINS WITH ACCEPTANCE</span>
         </div>
-        <!-- Address -->
-        <div class="flex flex-col items-center">
-            <span class="block text-brand-secondary-dark text-lg font-bold mb-1">Acceptance House</span>
-            <span class="block">1234 Serenity Lane</span>
-            <span class="block">Somewhere, ST 12345</span>
-            <span class="block">(555) 123-4567</span>
-        </div>
+        <!-- Contact Info -->
+        <section aria-label="Contact Info" class="text-center md:text-left">
+            <h2 class="text-3xl font-cormorant font-light border-b border-brand-primary-light pb-1 mb-2">Contact Info</h2>
+            <address class="not-italic text-sm leading-6">
+                5051 Van Buren Rd<br>
+                Delray Beach FL 33484<br>
+                304-670-1821<br>
+                <a href="mailto:info@acceptancehouse.com" class="text-brand-primary-light underline">info@acceptancehouse.com</a>
+            </address>
+        </section>
         <!-- Navigation -->
         <nav aria-label="Footer Navigation" class="text-center md:text-right pt-4">
             <ul class="space-y-1">
@@ -82,6 +85,9 @@
             </ul>
         </nav>
     </div>
+</footer>
+<footer class="w-full bg-brand-text text-neutral-bg py-4 flex text-sm" role="contentinfo" aria-label="Site Footer">
+    <div class="max-w-6xl mx-auto px-8">Copyright 2025 Acceptance House, Delray Beach, FL</div>
 </footer>
 </body>
 </html>
