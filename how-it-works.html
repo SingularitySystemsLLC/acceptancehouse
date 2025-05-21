@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceptance House</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Cormorant+Garamond:300,400,500,600,700,300italic,400italic,500italic,600italic,700italic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/gallery.js" defer></script>
+</head>
+<body class="text-brand-text min-h-screen flex flex-col">
+<!-- Header with logo on white background -->
+<header class="bg-white w-full flex flex-col items-center pt-6 pb-2">
+    <img src="/images/acceptance-house.png" alt="Acceptance House logo" class="h-24 w-auto mb-2" />
+    <span class="block text-brand-accent text-base md:text-lg tracking-wide font-semibold mt-2 mb-1 text-center font-cormorant" aria-label="Site tagline">
+      WHERE RECOVERY BEGINS WITH ACCEPTANCE
+    </span>
+</header>
+
+<!-- Mobile Nav (above hero) -->
+<nav class="md:hidden w-full flex flex-col items-center bg-brand-secondary-dark z-10 shadow-sm">
+    <button id="menu-toggle" class="p-4 focus:outline-none text-white" aria-label="Open main menu" aria-expanded="false">
+        <span class="sr-only">Open menu</span>
+        <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+    <div id="mobile-menu" class="hidden w-full bg-brand-secondary-dark">
+        <div class="max-w-6xl mx-auto px-8 w-full flex flex-col items-start">
+            <a href="/about.html" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">ABOUT US</a>
+            <a href="/how-it-works.html" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">HOW IT WORKS</a>
+            <a href="/residence.html" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">THE RESIDENCE</a>
+            <a href="/apply.html" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">APPLY ONLINE</a>
+            <a href="/contact-us.html" class="py-2 w-full text-left text-white hover:bg-brand-primary-light">CONTACT</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Image -->
+<section class="relative w-full flex-1 flex flex-col">
+    <img src="/images/residence-main-pic.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[420px] lg:h-[420px]" />
+    <!-- Desktop Nav (below hero) -->
+    <nav class="hidden md:flex w-full justify-center items-center bg-brand-secondary-dark text-white py-4 font-lato font-light leading-[30px] tracking-[0.2em] space-x-12">
+        <a href="/about.html" class="hover:text-brand-accent focus:text-brand-accent">ABOUT US</a>
+        <a href="/how-it-works.html" class="hover:text-brand-accent focus:text-brand-accent">HOW IT WORKS</a>
+        <a href="#" class="text-brand-accent">THE RESIDENCE</a>
+        <a href="/apply.html" class="hover:text-brand-accent focus:text-brand-accent">APPLY ONLINE</a>
+        <a href="/contact-us.html" class="hover:text-brand-accent focus:text-brand-accent">CONTACT</a>
+    </nav>
+</section>
+
+
+
+<footer class="bg-white py-10 font-sans text-brand-text" aria-label="Footer">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        <!-- Logo -->
+        <div class="flex justify-center md:justify-start">
+            <img src="/images/acceptance-house.png" alt="Acceptance House logo" class="h-[150px]" />
+        </div>
+        <!-- Contact Info -->
+        <section aria-label="Contact Info" class="text-center md:text-left">
+            <h2 class="text-3xl font-cormorant font-light border-b border-brand-primary-light pb-1 mb-2">Contact Info</h2>
+            <address class="not-italic text-sm leading-6">
+                5051 Van Buren Rd<br>
+                Delray Beach FL 33484<br>
+                304-670-1821<br>
+                <a href="mailto:info@acceptancehouse.com" class="text-brand-primary-light underline">info@acceptancehouse.com</a>
+            </address>
+        </section>
+        <!-- Navigation -->
+        <nav aria-label="Footer Navigation" class="text-center md:text-right pt-4">
+            <ul class="space-y-1">
+                <li><a href="/about" class="hover:text-brand-primary-light">About Us</a></li>
+                <li><a href="/how-it-works" class="hover:text-brand-primary-light">How it Works</a></li>
+                <li><a href="/residence.html" class="hover:text-brand-primary-light">The Residence</a></li>
+                <li><a href="/apply" class="hover:text-brand-primary-light">Apply Online</a></li>
+                <li><a href="/contact" class="hover:text-brand-primary-light">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<footer class="w-full bg-brand-text text-neutral-bg py-4 flex text-sm" role="contentinfo" aria-label="Site Footer">
+    <div class="max-w-6xl mx-auto px-8">Copyright 2025 Acceptance House, Delray Beach, FL</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

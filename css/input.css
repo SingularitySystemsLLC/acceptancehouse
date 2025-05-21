@@ -15,6 +15,10 @@
   background-blend-mode: multiply;
 }
 
+.form-input-ah {
+  @apply block w-full rounded border border-gray-300 bg-white shadow-sm focus:ring-[#5692ba] focus:border-[#5692ba] py-2 px-3 text-base;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

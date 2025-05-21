@@ -17,6 +17,7 @@ module.exports = {
         'brand-secondary-dark': '#0B1127',
         'neutral-bg': '#f4ede4',
         'brand-accent': '#7A9D54',
+        'brand-slate-gray': '#A4A6A3',
         'brand-text': '#2F3C4F',
         'brand-primary-medium': '#2F3C4F',
         'accent-70': 'rgba(122,157,84,0.7)',
