@@ -19,7 +19,7 @@
 </header>
 
 <!-- Mobile Nav (above hero) -->
-<nav class="md:hidden w-full flex flex-col items-center bg-brand-secondary-dark z-10 shadow-sm">
+<nav class="md:hidden w-full flex flex-col items-center bg-brand-secondary-dark shadow-sm">
     <button id="menu-toggle" class="p-4 focus:outline-none text-white" aria-label="Open main menu" aria-expanded="false">
         <span class="sr-only">Open menu</span>
         <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -38,19 +38,58 @@
 </nav>
 
 <!-- Hero Image -->
-<section class="relative w-full flex-1 flex flex-col">
-    <img src="/images/residence-main-pic.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[420px] lg:h-[420px]" />
+<section class="w-full flex-1 flex flex-col">
+    <img src="/images/what-to-expect.jpg" alt="Pathway to the beach with blue umbrellas and ocean view" class="object-cover w-full h-64 md:h-[380px] lg:h-[420px]" />
     <!-- Desktop Nav (below hero) -->
     <nav class="hidden md:flex w-full justify-center items-center bg-brand-secondary-dark text-white py-4 font-lato font-light leading-[30px] tracking-[0.2em] space-x-12">
         <a href="/about.html" class="hover:text-brand-accent focus:text-brand-accent">ABOUT US</a>
-        <a href="/how-it-works.html" class="hover:text-brand-accent focus:text-brand-accent">HOW IT WORKS</a>
-        <a href="#" class="text-brand-accent">THE RESIDENCE</a>
+        <a href="/how-it-works.html" class="text-brand-accent">HOW IT WORKS</a>
+        <a href="#" class="hover:text-brand-accent focus:text-brand-accent">THE RESIDENCE</a>
         <a href="/apply.html" class="hover:text-brand-accent focus:text-brand-accent">APPLY ONLINE</a>
         <a href="/contact-us.html" class="hover:text-brand-accent focus:text-brand-accent">CONTACT</a>
     </nav>
 </section>
 
+<!-- Acceptance House Guidelines Section -->
+<section class="bg-white py-16 px-4 md:px-12 lg:px-32" aria-label="Acceptance House Guidelines">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-medium text-brand-primary-dark font-sans mb-4">Acceptance House Guidelines</h2>
+    <ul class="list-disc pl-6 text-brand-text text-base md:text-lg">
+      <li>Remain substance-free and committed to recovery.</li>
+      <li>Attend required group meetings and participate in house activities.</li>
+      <li>Follow all house rules, including curfew and chores.</li>
+      <li>Respect fellow residents and maintain a positive environment.</li>
+      <li>Maintain regular communication with staff and sponsors.</li>
+    </ul>
+  </div>
+</section>
 
+<!-- What to Bring / What Not to Bring Section -->
+<section class="py-16 px-4 md:px-12 lg:px-32 bg-brand-slate-gray text-brand-text" aria-label="What to Bring and Not to Bring">
+  <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+    <div>
+      <h3 class="text-xl md:text-2xl font-medium text-brand-secondary-dark mb-4 font-sans uppercase">What to Bring</h3>
+      <ul class="list-disc pl-6 text-base md:text-lg">
+        <li>Comfortable clothing (enough for 2 weeks)</li>
+        <li>Toiletries &amp; hygiene items</li>
+        <li>Towels &amp; bedding</li>
+        <li>Laundry detergent</li>
+        <li>Prescription medications (in original packaging)</li>
+        <li>Important documents (ID, insurance)</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl md:text-2xl font-medium text-brand-secondary-dark mb-4 font-sans uppercase">What <span class="text-brand-primary-light"> Not</span> to Bring</h3>
+      <ul class="list-disc pl-6 text-base md:text-lg">
+        <li>Alcohol, drugs, or paraphernalia</li>
+        <li>Weapons of any kind</li>
+        <li>Unapproved electronics</li>
+        <li>Candles or incense</li>
+        <li>Energy drinks or workout supplements</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <footer class="bg-white py-10 font-sans text-brand-text" aria-label="Footer">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
