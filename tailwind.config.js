@@ -21,6 +21,7 @@ module.exports = {
         'brand-text': '#2F3C4F',
         'brand-primary-medium': '#2F3C4F',
         'accent-70': 'rgba(122,157,84,0.7)',
+        'gray-300': '#D1D5DB',
       },
     },
   },
